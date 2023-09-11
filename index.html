@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AK Chettinadu Hotel</title>
+    <!-- Absolute Links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Relative Links -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="menu">
+      <div class="menu-container full-width">
+          <input type="checkbox">
+          <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+          </div>
+          <!-- Menu list Bar -->
+          <ul class="menu-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="food-menu.html">Menu</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <!-- Logo -->
+          <div class="logo"><img src="./img/download.webp" alt="Ak Hotel"></div>
+      </div>
+  </nav>
+  <!--  Ending of Navigation bar -->
+    <section class="image">
+      <div class="image-container">
+        <h1 class="image-title">Eat Right Food</h1>
+        <p>Eat Healty, it is good for our health.</p>
+        <a href="food-menu.html" class="btn">Menu</a>
+      </div>
+    </section>
+<!--  About Page -->
+    <section class="about">
+      <div class="about-container full-width">
+        <div class="about-text">
+          <p class="para">About Us</p>
+          <h2>We've been making healthy food last for 10 years</h2>
+          <p>
+            Hello, I am Anand Kumar, the founder and owner of “AK Chettinadu Hotel” Chennai’s most 
+            popular biryani brand. I’ve been working in the restaurant and hotel industry for
+             over 15 years now. As a native of Chennai, 
+             I’ve always have been a huge fan of traditional Tamil wedding style biryani. 
+             I’ve been attending many friends and family weddings since childhood, only 
+             just to relish some authentic, super-delicious wedding style biryani, 
+            and truly for nothing else!
+          </p>
+        </div>
+        <!-- About Page Image -->
+        <div class="about-img">
+          <img src="./img/ai-generated-8123328_640.png" alt="food" />
+        </div>
+      </div>
+    </section>
+    <!--  Types of Food 1 -->
+    <section class="food">
+      <h2>Types of food</h2>
+      <div class="food-container full-width">
+        <div class="food-type">
+          <div class="img-container">
+            <img src="https://images.pexels.com/photos/14731635/pexels-photo-14731635.jpeg?auto=compress&cs=tinysrgb&w=600" alt="biryani" />
+            <div class="img-content">
+              <h3>Mutton</h3>
+              <a href="#" class="btn" target="blank">learn more</a>
+            </div>
+          </div>
+        </div>
+         <!--  Types of Food 2 -->
+        <div class="food-type">
+          <div class="img-container">
+            <img src="https://images.pexels.com/photos/12913636/pexels-photo-12913636.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="biryani" />
+            <div class="img-content">
+              <h3>Chicken</h3>
+              <a href="#" class="btn" target="blank">learn more</a>
+            </div>
+          </div>
+        </div>
+         <!--  Types of Food 3 -->
+        <div class="food-type">
+          <div class="img-container">
+            <img src="https://images.pexels.com/photos/12620971/pexels-photo-12620971.jpeg?auto=compress&cs=tinysrgb&w=600" alt="biryani" />
+            <div class="img-content">
+              <h3>Fried</h3>
+              <a href="#" class="btn" target="blank">learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Food Menu List 1-->
+    <section class="fm">
+      <h2 class="fm-heading">Food Menu</h2>
+      <div class="fm-container full-width">
+        <div class="fm-item">
+          <div class="fm-img">
+            <img src="data:image/jpeg;base64,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" alt="" />
+          </div>
+          <div class="fm-description">
+            <h2 class="fm-title">Mutton Pandhi Virunthu</h2>
+            <p>
+              Mutton Biryani (3 pcs Mutton) + Unlimited Biryani Rice + 2 Pieces Chicken 65 + <br>
+              (Unlimited Accompaniments – Spl. Ennai Kathrikai + Raitha + Signature Bread Halwa + <br>
+              1 Spl Kulfi + 1 Sweet / Fire Paan + Complementary Smoke Shots)
+            </p>
+            <p class="fm-price">Price: Rs.549 </p>
+          </div>
+        </div>
+ <!-- Food Menu List 2 -->
+        <div class="fm-item">
+          <div class="fm-img">
+            <img
+              src="./img/kozhi.jpg"
+              alt="menu"
+            />
+          </div>
+          <div class="fm-description">
+            <h2 class="fm-title">Kozhi Pandhi Virundhu</h2>
+            <p>
+              Chicken Biryani (3 pcs Chicken) + Unlimited Biryani Rice + 2 Pieces Chicken 65 + 
+              (Unlimited Accompaniments – Spl. Ennai Kathrikai + Raitha + Signature Bread Halwa +
+              1 Spl Kulfi + 1 Sweet / Fire Paan + Complementary Smoke Shots)
+            </p>
+            <p class="fm-price">Price: Rs.399</p>
+          </div>
+        </div>
+         <!-- Food Menu List 3-->
+        <div class="fm-item">
+          <div class="fm-img">
+            <img src="./img/images3.jpg" alt="menu" />
+          </div>
+          <div class="fm-description">
+            <h2 class="fm-title">Kids Meal Pack (Mutton)</h2>
+            <p>
+              Mutton Biryani (2 pcs)+ Unlimited Biryani Rice + 1 Pieces Chicken 65 + 
+              (Unlimited Accompaniments – Spl. Ennai Kathrikai + Raitha, Signature Bread Halwa + 
+              1 Spl Kulfi and 1 Sweet Paan + Complementary Smoke Shots)
+            </p>
+            <p class="fm-price">Price: Rs. 289</p>
+          </div>
+        </div>
+         <!-- Food Menu List 4-->
+        <div class="fm-item">
+          <div class="fm-img">
+            <img src="./img/images3.jpg" alt="menu" />
+          </div>
+          <div class="fm-description">
+            <h2 class="fm-title">Kids Meal Pack
+              (Chicken)</h2>
+            <p>
+              Chicken Biryani (2 pcs)+ Unlimited Biryani Rice + 1 Pieces Chicken 65 + 
+              (Unlimited Accompaniments – Spl. Ennai Kathrikai + Raitha, Signature Bread Halwa + 
+              1 Spl Kulfi and 1 Sweet Paan + Complementary Smoke Shots)
+            </p>
+            <p class="fm-price">Price: Rs. 249</p>
+          </div>
+        </div>
+         <!-- Food Menu List 5-->
+        <div class="fm-item">
+          <div class="fm-img">
+            <img src="./img/images4.jpg" alt="menu" />
+          </div>
+          <div class="fm-description">
+            <h2 class="fm-title">Eraal Pandhi Virundhu</h2>
+            <p>
+              Prawn Biryani (150 gms prawns) + Unlimited Biryani Rice + 2 Pieces Chicken 65 + 
+              (Unlimited Accompaniments – Spl. Ennai Kathrikai + Raitha + Signature Bread Halwa + 
+              1 Spl Kulfi + 1 Sweet / Fire Paan + Complementary Smoke Shots)
+            </p>
+            <p class="fm-price">Price: Rs. 499</p>
+          </div>
+        </div>
+         <!-- Food Menu List 6-->
+        <div class="fm-item">
+          <div class="fm-img">
+            <img src="./img/images5.jpg" alt="menu" />
+          </div>
+          <div class="fm-description">
+            <h2 class="fm-title">Chicken Rice</h2>
+            <p>
+              This Chicken Fried Rice recipe is a great way to 
+              transform cooked leftover rice into a new dish.
+            </p>
+            <p class="fm-price">Price: Rs. 180</p>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- Feedback Customer Satisfaction 1 -->
+    <section class="feedback">
+      <h2 class="fb-heading">What Our Customers Say</h2>
+      <div class="fb-container full-width">
+        <div class="fb-box">
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img src="https://media.licdn.com/dms/image/C4D03AQGzJvZ7LO_-Hw/profile-displayphoto-shrink_800_800/0/1660792177800?e=2147483647&v=beta&t=YoEu6h4VPT5_o61IanLbCRUxmZyLnu3rP7GRqvYsjEA" alt="customer" />
+              <p>Velmurugan</p>
+            </div>
+          </div>
+          <div class="star-rating">
+            <span class="fa fa-star fill"></span>
+            <span class="fa fa-star fill"></span>
+            <span class="fa fa-star fill"></span>
+            <span class="fa fa-star fill"></span>
+            <span class="fa fa-star fill"></span>
+          </div>
+          <p class="fb-text">
+            "Ordered on Zomato.....Good taste....tasty biriyani... super combo"
+          </p>
+              <!-- Feedback Customer Satisfaction 2 -->
+        </div>
+        <div class="fb-box">
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img
+                src="https://qph.cf2.quoracdn.net/main-thumb-7545989-200-BNuu3FvklaEkqAtkv5uYdGt1YtXvmND1.jpeg"
+                alt="customer"
+              />
+              <p>Kumarasan</p>
+            </div>
+          </div>
+          <div class="star-rating">
+            <span class="fa fa-star fill"></span>
+            <span class="fa fa-star fill"></span>
+            <span class="fa fa-star fill"></span>
+            <span class="fa fa-star fill"></span>
+
+          </div>
+          <p class="fb-text">
+            Limited Menu, situated in a limited area, but service is good at moderate rates."
+          </p>
+         
+        </div>
+             <!-- Feedback Customer Satisfaction 3 -->
+        <div class="fb-box">
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img src="./img/images6.jpg" alt="customer" />
+              <p>Subbu Lakshmi</p>
+            </div>
+          </div>
+          <div class="star-rating">
+            <span class="fa fa-star fill"></span>
+            <span class="fa fa-star fill"></span>
+            <span class="fa fa-star fill"></span>
+            <span class="fa fa-star fill"></span>
+            <span class="fa fa-star fill"></span>
+          </div>
+          <p class="fb-text">
+           	"Good price can be better otherwise tasty amazing!!!"
+
+          </p>
+         
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact-container full-width">
+        <div class="contact-img">
+          <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="" />
+        </div>
+     <!-- Contact Us-->
+        <form class="form-container">
+          <h2>Contact Us</h2>
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="E-Mail" />
+          <textarea cols="30"rows="6"
+            placeholder="Type Your Message"></textarea>
+          <a href="#" class="btn">Submit</a>
+        </form>
+      </div>
+    </section>
+    <!-- Footer   -->
+    <footer>
+      <div class="content">  
+        <div class="top">  
+          <div class="logo">  
+            <img src="./img/download.webp" alt="Ak Hotel"> 
+          </div>  
+          <div class="media-icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>  
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>  
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>  
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>  
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div> 
+         </div>  
+         <hr>
+         <!-- boxes -->
+        <div class="link-boxes">  
+          <ul class="box">  
+            <li class="link_name">Links</li>  
+            <li><a href="index.html">Home</a></li>  
+            <li><a href="contact.html">Contact</a></li>  
+            <li><a href="about.html">About Us</a></li>  
+            <li><a href="food-menu.html">Menu</a></li>  
+          </ul>  
+          <ul class="box">  
+            <li class="link_name">Services</li>
+            <li><a href="https://www.swiggy.com/">Swiggy</a></li>  
+            <li><a href="https://www.zomato.com/india">Zomato</a></li>  
+            <li><a href="https://www.foodpanda.com/">Foodie</a></li>  
+            <li><a href="https://www.ubereats.com/">Uber Eats</a></li>
+          </ul>  
+      <ul class="box">  
+        <li class="link_name">Contact</li>
+        <li><a href="#">12, Building, Chennai.</a></li>  
+        <li><a href="#">Tamil Nadu 60009</a></li>  
+        <li><a href="#">97898723456</a></li>
+          </ul>  
+          <ul class="box">  
+          </ul>  
+        </div>  
+      </div>  
+      </div>  
+    </footer>
+  </body>
+ </html>
